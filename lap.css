@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page1{
+    width: 100%;
+}
+
+.page1 .left{
+    margin-top: 50px;
+    width:25%;
+    position: relative;
+    
+}
+.box1{
+    border: 1px solid grey;
+}
+.box1 h2 {
+    font-size: 1.3em;
+    margin-left: 10px;
+   
+}
+.box1 h3{
+  
+    position: absolute;
+   left: 300px;
+   bottom: 230px;
+   font-size: 0.9em;
+   color: blue;
+    
+   
+}
+.box1 button{
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(200, 198, 198);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.left .box2 {
+  
+    border: 1px solid grey;
+
+}
+.left .box2 p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.left .box2 h5{
+    font-size: 1em;
+    margin-left: 10px;
+
+}
+.box3{
+   
+    border: 1px solid grey;
+    position: relative;
+}
+.box3 select{
+  
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.box3 h2 {
+    margin-top: 20px;
+    font-size: 1.3em;
+    margin-left: 10px;
+   
+}
+.box3 p{
+  
+    position: absolute;
+   left: 300px;
+   bottom: 50px;
+   font-size: 0.9em;
+   color: blue;
+  
+    
+   
+}
+.box4{
+
+    border: 1px solid grey;
+}
+
+.box4 img{
+   
+    width: 100px;
+    margin-left: 20px;
+}
+.box4 input{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+   
+
+}
+.box5{
+    border: 1px solid grey;
+    
+}
+
+.box5 input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.box5 p{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+
+.box6{
+    border: 1px solid grey;
+}
+.box6 h3{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.box6 input{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box7{
+    border: 1px solid grey;
+}
+.box7 p{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.box7 input{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box8{
+    border: 1px solid grey;
+}
+.box8 p{
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.box8 input{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.right{
+    width: 68%;
+    margin-top: 50px;
+
+}
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  
+}
+.right ul li{
+    list-style-type: none;
+ 
+}
+
+
+
+.right .part1{
+    width: 100%;
+    height: 300px;
+
+}
+.right .part1 .par1 img{
+
+    width: 200px;
+    height: 200px;
+
+}
+.right .part1 h2{
+    font-size: 1em;
+
+}
+.right .part1 h2:hover{
+    font-size: 1em;
+    color: blue;
+}
+
+.right .part1  .par2 p{
+    width: 45px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+
+}
+.right .part1 i{
+    font-size: 0.7em;
+
+}
+.right .par2{
+    margin-top: 30px;
+}
+.right .par2 input{
+   outline: none;
+   border: none;
+}
+
+.right .par3 img{
+    width: 70px;
+    height: 30px;
+    margin-left: 130px;
+    
+}
+.right .par3 h3{
+    margin-top: 30px;
+}
+.right .par3 p span{
+    color: green;
+}
+.right .part1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+
+
+@media screen  and (max-width:992px) {
+
+
+    .right{
+        width: 30%;
+    }
+    .left{
+        width: 70%;
+    }
+    .right ul{
+        display: none;
+    }
+    .rate{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen  and (max-width:562px) {
+
+
+    .right{
+        width: 50%;
+    }
+    .left{
+        width: 50%;
+    }
+    .right ul{
+        display: none;
+    }
+
+    .box4 img{
+        width: 50px;
+    }
+    .box5 input{
+        width: 20px;
+    }
+
+
+    
+ 
+    .first{
+        width: 700px;
+    }
+
+    .rate{
+        display: none;
+    }
+
+    
+}
+

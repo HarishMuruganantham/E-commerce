@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./orde.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/a64a3f1332.js" crossorigin="anonymous"></script>
+
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2 id="booktitle">Filpkard</h2> <br>
+            <h3 id="bookauthor">Mark Twain</h3> <br>
+            <p id="bookdescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatum quia sint
+                doloremque pariatur, id commodi, sunt tempore obcaecati delectus ratione alias inventore explicabo
+                deleniti a perspiciatis nihil dicta aut.</p> <br>
+            <button onclick="deletebox(event)">Delete</button>
+        </div>
+    </div>
+
+    <button id="addbtn">+</button>
+
+    <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h3>Add Book</h3>
+        <form>
+            <input type="text" placeholder="Enter Book Name" id="bookname">
+            <input type="text" placeholder="Enter Author Name" id="authorname">
+            <textarea placeholder="Type Some Description" id="description"></textarea>
+            <button id="add">Add</button>
+            <button id="cancel">Cancel</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
